@@ -1,5 +1,7 @@
 # vue-portfolio
 
+https://katys-11.github.io/katy-potofolio/
+
 ## Project setup
 ```
 npm install

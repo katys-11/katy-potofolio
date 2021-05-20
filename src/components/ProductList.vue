@@ -12,55 +12,43 @@
 </template>
 
 <script>
-import Product from './Product.vue';
+import Product from "./Product.vue";
 export default {
-  name: 'ProductList',
+  name: "ProductList",
   components: { Product },
   data: () => ({
-    sortYear: '全て',
+    sortYear: "全て",
     products: [
       {
         id: 1,
-        name: 'ここにタイトルを入れてね',
+        name: "富戸ブルーブランドプロモーション",
         // TODO: ここに差し替えたい画像のパスを入れてね
-        image: require('@/assets/re-vr.png'),
-        year: '2020',
-        category: 'プロジェクト',
-        use: 'ここに使った技術を入れてね',
+        image: require("@/assets/re-vr.png"),
+        year: "2020",
+        category: "プロジェクト",
+        use: "地域活性化、AR、",
         urls: [
           // TODO: ここにリンクしたいURLを入れてね
-          'http://google.com'
+          "https://www.meisei-u.ac.jp/2021/2021031504.html",
         ],
       },
-      // image: "vue-portfolio/src/assets/re-vr.png",
-      // {
-      //   id: 2,
-      //   name: "work2",
-      //   image: "https://dummyimage.com/250x150/000/fff",
-      //   year: "2019",
-      //   category: "LP",
-      //   use: "Vue.js",
-      // },
-      // {
-      //   id: 3,
-      //   name: "work3",
-      //   image: "https://dummyimage.com/250x150/000/fff",
-      //   year: "2018",
-      //   category: "ECサイト",
-      //   use: "デザイン",
-      // },
-      // {
-      //   id: 4,
-      //   name: "work4",
-      //   image: "https://dummyimage.com/250x150/000/fff",
-      //   year: "2019",
-      //   category: "LP",
-      //   use: "Vue.js",
-      // },
+      {
+        id: 1,
+        name: "ウズベキスタン観光アプリの提案",
+        // TODO: ここに差し替えたい画像のパスを入れてね
+        image: require("@/assets/2019pm.jpeg"),
+        year: "2019",
+        category: "プロジェクト",
+        use: "プロジェクションマッピング、英語プレゼンテーション",
+        urls: [
+          // TODO: ここにリンクしたいURLを入れてね
+          "https://www.meisei-u.ac.jp/2020/20200120p1.html",
+        ],
+      },
     ],
   }),
   computed: {
-    filterdList: function() {
+    filterdList: function () {
       const newList = [];
       for (let i = 0; i < this.products.length; i++) {
         if (this.sortYear === "2020" && this.products[i].year === "2020") {
@@ -83,7 +71,7 @@ export default {
     },
   },
   methods: {
-    sortYearChanged: function(year) {
+    sortYearChanged: function (year) {
       console.log(year);
       this.sortYear = year;
     },

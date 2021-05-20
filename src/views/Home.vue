@@ -8,7 +8,7 @@
         <v-col class="text-center" cols="12">
           <h1 class="display-1 font-weight-thin mb-4">PORTFOLIO</h1>
           <!-- TODO: ここ差し替える -->
-          <h4 class="subheading">ここを自分の名前とかに差し替えてね</h4>
+          <h4 class="subheading">Katys potofolio</h4>
           <!-- ハッシュリンク追加 -->
           <a href="#works-header">works</a>
         </v-col>

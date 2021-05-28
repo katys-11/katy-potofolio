@@ -26,7 +26,7 @@ export default {
         image: require("@/assets/re-vr.png"),
         year: "2020",
         category: "プロジェクト",
-        use: "地域活性化、AR、",
+        use: "地域活性化、ブランディング、AR、",
         urls: [
           // TODO: ここにリンクしたいURLを入れてね
           "https://www.meisei-u.ac.jp/2021/2021031504.html",
@@ -34,12 +34,38 @@ export default {
       },
       {
         id: 1,
-        name: "ウズベキスタン観光アプリの提案",
+        name: "ウズベキスタンプロモーション",
         // TODO: ここに差し替えたい画像のパスを入れてね
         image: require("@/assets/2019pm.jpeg"),
         year: "2019",
         category: "プロジェクト",
         use: "プロジェクションマッピング、英語プレゼンテーション",
+        urls: [
+          // TODO: ここにリンクしたいURLを入れてね
+          "https://www.meisei-u.ac.jp/2020/20200120p1.html",
+        ],
+      },
+      {
+        id: 1,
+        name: "ダンス",
+        // TODO: ここに差し替えたい画像のパスを入れてね
+        image: require("@/assets/2019pm.jpeg"),
+        year: "2019",
+        category: "作品",
+        use: "受賞歴、振り付け",
+        urls: [
+          // TODO: ここにリンクしたいURLを入れてね
+          "https://www.meisei-u.ac.jp/2020/20200120p1.html",
+        ],
+      },
+      {
+        id: 1,
+        name: "論文",
+        // TODO: ここに差し替えたい画像のパスを入れてね
+        image: require("@/assets/2019pm.jpeg"),
+        year: "2020",
+        category: "研究",
+        use: "英語論文、ブラジル学会",
         urls: [
           // TODO: ここにリンクしたいURLを入れてね
           "https://www.meisei-u.ac.jp/2020/20200120p1.html",

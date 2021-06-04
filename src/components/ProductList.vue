@@ -49,28 +49,28 @@ export default {
         id: 1,
         name: "ダンス",
         // TODO: ここに差し替えたい画像のパスを入れてね
-        image: require("@/assets/2019pm.jpeg"),
+        image: require("@/assets/IMG_3595_Original.jpg"),
         year: "2019",
         category: "作品",
         use: "受賞歴、振り付け",
         urls: [
           // TODO: ここにリンクしたいURLを入れてね
-          "https://www.meisei-u.ac.jp/2020/20200120p1.html",
+          "https://vimeo.com/556738087",
         ],
       },
-      {
-        id: 1,
-        name: "論文",
-        // TODO: ここに差し替えたい画像のパスを入れてね
-        image: require("@/assets/2019pm.jpeg"),
-        year: "2020",
-        category: "研究",
-        use: "英語論文、ブラジル学会",
-        urls: [
-          // TODO: ここにリンクしたいURLを入れてね
-          "https://www.meisei-u.ac.jp/2020/20200120p1.html",
-        ],
-      },
+      // {
+      //   id: 1,
+      //   name: "論文",
+      //   // TODO: ここに差し替えたい画像のパスを入れてね
+      //   image: require("@/assets/12c762e1-fb45-46ee-8807-6f8d2c2713a3.pdf"),
+      //   year: "2020",
+      //   category: "研究",
+      //   use: "英語論文、ブラジル学会",
+      //   urls: [
+      //     // TODO: ここにリンクしたいURLを入れてね
+      //     "https://www.even3.com.br/iiss2020/",
+      //   ],
+      // },
     ],
   }),
   computed: {

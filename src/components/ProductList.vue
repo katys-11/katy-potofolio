@@ -58,19 +58,19 @@ export default {
           "https://vimeo.com/556738087",
         ],
       },
-      // {
-      //   id: 1,
-      //   name: "論文",
-      //   // TODO: ここに差し替えたい画像のパスを入れてね
-      //   image: require("@/assets/12c762e1-fb45-46ee-8807-6f8d2c2713a3.pdf"),
-      //   year: "2020",
-      //   category: "研究",
-      //   use: "英語論文、ブラジル学会",
-      //   urls: [
-      //     // TODO: ここにリンクしたいURLを入れてね
-      //     "https://www.even3.com.br/iiss2020/",
-      //   ],
-      // },
+      {
+        id: 1,
+        name: "論文",
+        // TODO: ここに差し替えたい画像のパスを入れてね
+        image: require("@/assets/スクリーンショット.jpeg"),
+        year: "2020",
+        category: "研究",
+        use: "英語論文、ブラジル学会",
+        urls: [
+          // TODO: ここにリンクしたいURLを入れてね
+          "https://www.even3.com.br/iiss2020/",
+        ],
+      },
     ],
   }),
   computed: {
